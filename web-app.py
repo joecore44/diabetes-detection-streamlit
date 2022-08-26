@@ -6,10 +6,10 @@ from PIL import Image
 import streamlit as st
 
 st.write("""
-# Detect Diabetes
+# AI Diabetes Detection
 With a Machine Learning Model Trained on an International Diabetes Dataset
- Author: Joe Shepard - www.joeshepard.dev
 """)
+st.write('Author: Joe Shepard - www.joeshepard.dev')
 
 image = Image.open('dd-header.jpg')
 st.image(image, caption='Machien Learning', use_column_width=True)
